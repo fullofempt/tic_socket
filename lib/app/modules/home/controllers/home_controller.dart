@@ -11,7 +11,6 @@ class HomeController extends GetxController {
   void onInit() {
     super.onInit();
   }
-  //test
 
   void addPlayer() {
     SocketService.to.addPlayer(playerName.text);
